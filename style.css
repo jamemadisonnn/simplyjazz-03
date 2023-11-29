@@ -1,0 +1,74 @@
+.body {
+    background: black;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    max-width: 1025px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+/* Drink Menu */
+.drink-menu {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.decoy {
+    width: 2px;
+}
+.menu-button {
+    display: flex;
+}
+
+.button {
+    color: #FBFBFB;
+    padding: 16px;
+    display: grid;
+    place-items: center;
+    border: solid black 1px;
+}
+
+.txt-13 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none!important;
+    color: #CCCCCC;
+}
+.selected-link {
+    color: #CCCCCC;
+}
+
+.img-full {
+    width: 100%;
+}
+
+.item-push {
+    display: flex;
+    justify-content: space-between;
+}
